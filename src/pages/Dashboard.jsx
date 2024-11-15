@@ -21,7 +21,7 @@ const Dashboard = () => {
 
   const getMarathonandEffortScore = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/api/users/details/', {
+      const response = await axios.get('http://143.198.146.147:8000/api/users/details/', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -39,7 +39,7 @@ const Dashboard = () => {
 
   const getWorkouts = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/api/workouts/', {
+      const response = await axios.get('http://143.198.146.147:8000/api/workouts/', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -55,7 +55,7 @@ const Dashboard = () => {
 
     try {
       await axios.post(
-        'http://localhost:8000/api/workouts/',
+        'http://143.198.146.147:8000/api/workouts/',
         {
           distance,
           time,

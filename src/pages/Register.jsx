@@ -22,7 +22,7 @@ const Register = () => {
 
     e.preventDefault();
     try {
-      await axios.post('http://localhost:8000/api/users/register/', {
+      await axios.post('http://143.198.146.147:8000/api/users/register/', {
         username,
         email,
         password,

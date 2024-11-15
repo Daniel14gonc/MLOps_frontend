@@ -15,12 +15,12 @@ const LandingPage = () => {
     <div
       className="landing-container"
       style={{
-        backgroundImage: "url('/assets/running.jpg')",
+        backgroundImage: "url('https://cdn.pixabay.com/photo/2020/09/27/03/38/woman-5605529_1280.jpg')",
       }}
     >
       {/* Header */}
       <div className="w-full py-10 px-8 flex flex-row justify-between fixed top-0 z-50">
-        <div className="text-white font-bold text-2xl">Workout Tracker</div>
+        <div className="text-white font-bold text-2xl">Marathon Tribe</div>
         <div className='flex flex-row px-4'>
           <div
             onClick={handleLogin}
@@ -40,7 +40,7 @@ const LandingPage = () => {
 
         {/* Main content */}
         <div className="flex flex-col items-center justify-center h-full w-full">
-          <h1 className="text-5xl font-bold mb-6 text-center text-white">Bienvenido a Workout Tracker</h1>
+          <h1 className="text-5xl font-bold mb-6 text-center text-white">Bienvenido a Marathon Tribe</h1>
           <p className="text-lg mb-8 text-center max-w-lg text-white">
           ¡Registra tus entrenamientos y mejora tu rendimiento! Mantente motivado y alcanza tus objetivos con nuestro rastreador fácil de usar.
           </p>
